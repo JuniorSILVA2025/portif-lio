@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarala:wght@400;700&display=swap');
+
+    margin: 0;
+    padding: 0;
+}
+
+body{/*header, main ,footer*/
+     display: flex;
+    align-items: center;
+    justify-content: space-bewen;
+    background-color: #0079ea;
+    color: #f6f6f6;
+    height: 100vh;margin: 20px;
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 10% ;
+
+}
+
+.conteudo_esquerda{
+    margin: 15%;
+
+}
+
+.conteudo_esquerda_titulo{
+ text-align: center;
+}
+
+.conteudo_esquerda_descrição{
+    text-align: justify;
+     font-size: 24px;
+      font-family: 'Krona One', sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     padding: 50px;
+
+}
+.conteudo_esquerda_botoes{ /*conainer de links <a>*/
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+
+    }
+    
+    
+.conteudo__esquerda__botoes__botao{
+        background-color: #4622fd;
+        text-decoration: none;
+        width: 200px;
+        padding: 10px; 
+        border-radius: 16px;
+        text-decoration: none;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 1% -4%;
+        color: yellow;
+        text-align:center;
+    
+    
+    
+    }
